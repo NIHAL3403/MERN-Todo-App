@@ -342,35 +342,6 @@ Please use the below link for screenshots
 
 ```
 
-#### Api Calls
-
-1. Post - Register User
-
-```
-`../api/users`,
-
-```
-
-2. Post - Login User
-
-```
-`../api/auth`,
-
-```
-
-3. Get - Get todo tags
-
-```
-`../api/tags`,
-
-```
-
-4. Get/Post/Put/Delete Todos (Add/Update/Complete/Uncomplete/Delete/Get)
-
-```
-`../api/todos`,
-
-```
 
 ### Built With
 React - Frontend library
