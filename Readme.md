@@ -83,12 +83,6 @@ JWT_SECRET="secret"
 
 
 
-<div style="display: flex; justify-content: center">
-<img src="https://drive.google.com/file/d/1jOXRbigXCxF_a3gC6mx4CePGuY2CLMsb/view?usp=sharing" width="600" />
-</div>
-
-
-
 ### Directory Layout and Tree
 
 ```
@@ -298,56 +292,13 @@ npm test
 
 ```
 
-### Tesing Results
-## Unit Testing
-
-<img src="https://drive.google.com/file/d/11lelhQ4fNRUCDOK0BMqODqWLKdOOaaRs/view?usp=share_link">
-
-<div style="display: flex; justify-content: center">
-<img src="" width="600" />
-</div>
 
 
+### Tesing Results and Application Screenshot
 
-## E2E Testing
+Please use the below link for screenshots
 
-<img src="https://drive.google.com/file/d/1tvTAuXtZhgUQC0KjYj9BC5fCoBJMlByB/view?usp=sharing">
-
-<div style="display: flex; justify-content: center">
-<img src="" width="600" />
-</div>
-
-
-### Application Screenshots
-
-<img src="https://drive.google.com/file/d/1xtEAfU_-HdkzDz0EDuiDhNyC8uGRWCXi/view?usp=sharing">
-<div style="display: flex; justify-content: center">
-<img src="" width="600" />
-</div>
-
-<img src="https://drive.google.com/file/d/1g8QrYSBPv1V-H9mhYTszNqWz2MDysZBt/view?usp=sharing">
-<div style="display: flex; justify-content: center">
-<img src="" width="600" />
-</div>
-
-
-<img src="https://drive.google.com/file/d/1Ff4buAkorLR2C-4n3b7xzDXG5-sfsXRG/view?usp=sharing">
-<div style="display: flex; justify-content: center">
-<img src="" width="600" />
-</div>
-
-
-<img src="https://drive.google.com/file/d/1KGvpHrga22Q4OfxVJnJk4ZWnuBRqh5OU/view?usp=sharing">
-<div style="display: flex; justify-content: center">
-<img src="" width="600" />
-</div>
-
-
-
-
-
-
-
+("https://drive.google.com/drive/folders/1jccZ8BsYAvZybGmH8s1F9dAmMJheMAet?usp=share_link")
 
 ##### Global State Flow
 
