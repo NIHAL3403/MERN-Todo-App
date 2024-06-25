@@ -81,7 +81,11 @@ JWT_SECRET="secret"
 ("https://docs.google.com/file/d/1oUt0-68DDnThJIfyxpsbvTtgN77W1y40/edit?usp=docslist_api&filetype=msexcel")
 
 
-<img src="https://drive.google.com/file/d/1jOXRbigXCxF_a3gC6mx4CePGuY2CLMsb/view?usp=sharing"/>
+
+
+<div style="display: flex; justify-content: center">
+<img src="https://drive.google.com/file/d/1jOXRbigXCxF_a3gC6mx4CePGuY2CLMsb/view?usp=sharing" width="600" />
+</div>
 
 
 
