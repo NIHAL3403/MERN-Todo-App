@@ -35,6 +35,45 @@ To get started you can simply clone the repo and install the dependencies in the
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
+
+### Prerequisites
+
+Make sure you have the following installed on your machine:
+- [Node.js](https://nodejs.org/) (v12 or higher)
+- [MongoDB](https://www.mongodb.com/)
+
+
+### Installation
+
+1. **Clone the repository**:
+   ```sh
+   git clone https://github.com/your-username/MERN-Todo-App.git
+   cd MERN-Todo-App
+  ```
+
+2. **Install server dependencies**:
+
+```sh
+
+npm install
+Install client dependencies:
+
+cd client
+npm install
+cd ..
+Create a .env file in the root directory:
+
+touch .env
+Add the following to the .env file:
+
+PORT=3000
+MONGO_URI="mongodb+srv://salih123:salih123@cluster0.ngbtu.mongodb.net/<dbname>?retryWrites=true&w=majority"
+JWT_SECRET="secret"
+
+```
+
+
+
 ### Directory Layout and Tree
 
 ```
@@ -131,7 +170,58 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ```
 
-### Application
+
+### Running the Application
+
+Run the server:
+
+```sh
+
+npm run server
+Run the client:
+
+npm run client
+Run both client and server concurrently:
+
+
+npm run dev
+The application will be available at http://localhost:3000.
+
+Running Tests
+This project uses WebdriverIO for end-to-end testing and Mocha for unit testing.
+
+End-to-End Testing with WebdriverIO
+
+Install WDIO CLI:
+
+
+npm install @wdio/cli
+Configure WDIO:
+
+npx wdio config
+Follow the prompts to set up your WDIO configuration.
+
+Run WDIO Tests:
+
+
+npx wdio run wdio.conf.js
+Unit Testing with Mocha
+
+Run Unit Tests:
+
+npm test
+
+```
+
+
+
+
+
+
+
+
+
+
 
 #### ES6 + Features
 
@@ -192,6 +282,32 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
                  └── Pagination
 
 ```
+
+### Tesing Results
+## Unit Testing
+
+<img src="https://drive.google.com/file/d/11lelhQ4fNRUCDOK0BMqODqWLKdOOaaRs/view?usp=share_link">
+
+## E2E Testing
+
+<img src="https://drive.google.com/file/d/1tvTAuXtZhgUQC0KjYj9BC5fCoBJMlByB/view?usp=sharing">
+
+
+### Application Screenshots
+
+<img src="https://drive.google.com/file/d/1xtEAfU_-HdkzDz0EDuiDhNyC8uGRWCXi/view?usp=sharing">
+
+<img src="https://drive.google.com/file/d/1g8QrYSBPv1V-H9mhYTszNqWz2MDysZBt/view?usp=sharing">
+
+<img src="https://drive.google.com/file/d/1Ff4buAkorLR2C-4n3b7xzDXG5-sfsXRG/view?usp=sharing">
+
+<img src="https://drive.google.com/file/d/1KGvpHrga22Q4OfxVJnJk4ZWnuBRqh5OU/view?usp=sharing">
+
+
+
+
+
+
 
 ##### Global State Flow
 
@@ -265,6 +381,20 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ```
 
+### Built With
+React - Frontend library
+Redux - State management
+Node.js - Backend runtime
+Express - Backend framework
+MongoDB - Database
+Contributing
+Contributions are welcome! Please fork the repository and submit a pull request for review.
+
+### License
+This project is licensed under the MIT License.
+
+
+
 ##### NOTE: Local Storage
 
 JWT token for authentication is stored in the local storage of the browser and added to header of the request by setAuthToken function.
@@ -272,3 +402,11 @@ JWT token for authentication is stored in the local storage of the browser and a
 ### Author
 
 - [salih18](https://github.com/salih18)
+
+### Acknowledgments
+Special thanks to the contributors and the open-source community for their support and resources.
+
+
+
+
+
