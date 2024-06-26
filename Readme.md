@@ -49,8 +49,8 @@ Make sure you have the following installed on your machine:
    ```sh
    git clone https://github.com/your-username/MERN-Todo-App.git
    cd MERN-Todo-App
- 
-
+   ```
+   ```sh
 2. **Install server dependencies**:
 
 
